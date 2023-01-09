@@ -1,6 +1,6 @@
 name: "Hello world"
 description: "My first real add-on!"
-version: "1.1.0"
+version: "1.1.1"
 slug: "test_home"
 init: false
 arch:
@@ -12,3 +12,15 @@ arch:
 startup: before
 ports:
   8000/tcp: 8000
+options:
+  beer: true
+  wine: true
+  liquor: false
+  name: "world"
+  year: 2017
+schema:
+  beer: bool
+  wine: bool
+  liquor: bool
+  name: str
+  year: int
