@@ -1,7 +1,7 @@
 name: "Hello world"
 description: "My first real add-on!"
 version: "1.0.0"
-slug: "home_test"
+slug: "test_home"
 init: false
 arch:
   - aarch64
